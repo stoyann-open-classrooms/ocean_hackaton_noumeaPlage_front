@@ -1,12 +1,86 @@
-@import url(./SASS/_reset.scss);
-@import url(./SASS/_variables.scss);
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  max-height: 100vh;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+p {
+  line-height: 1.7;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  line-height: 1.7;
+  list-style: none;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.form {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+.form-group input,
+.form-group textarea,
+.form-group select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #9097e1;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  font-family: inherit;
+}
+
+.form-group textarea {
+  height: 30rem;
+}
+
+.form-group label {
+  text-align: left;
+  display: block;
+  margin: 0 0 5px 3px;
+  font-size: 1.6rem;
+}
+
 .container {
   width: 100%;
+  position: absolute;
+  top: 0;
+  height: 100vh;
   max-width: 1600px;
-  min-height: 100vh;
+  height: 100vh;
   margin: 0 auto;
-  margin-bottom: 15rem;
-  padding: 0 20px;
   text-align: center;
 }
 
@@ -16,7 +90,8 @@
   bottom: 0;
   right: 0;
   height: 95px;
-  background-color: #a8a8a8;
+  background-color: #474fa8;
+  color: rgb(215, 215, 215);
   z-index: 1000;
   display: flex;
   justify-content: center;
@@ -61,11 +136,23 @@
   color: #2c2c2c;
 }
 
+.mapContainer {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50px;
+  bottom: 95px;
+  background-color: grey;
+  height: 80%;
+  font-size: 3rem;
+}
+
 .heading {
   font-size: 2rem;
   font-weight: 700;
-  margin-bottom: 1rem;
-  padding: 0 20px;
+  padding: 1.5rem 20px;
+  background-color: #474fa8;
+  color: rgb(215, 215, 215);
 }
 
 .heading p {

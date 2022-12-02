@@ -1,3 +1,4 @@
+import Map from "../components/Map/Map"
 
 function Home() {
   return (
@@ -5,6 +6,7 @@ function Home() {
     <section className="heading">
         <h1>Nouméa plage</h1>
     </section>
+    <Map/>
     </>
   )
 }
