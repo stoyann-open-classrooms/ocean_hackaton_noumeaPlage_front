@@ -1,10 +1,11 @@
-import Map from "../components/Map/Map"
+import MapContainer from "../components/layout/arcGisMap/MapContainer"
+
+
 
 function Home() {
   return (
     <>
-   
-    <Map/>
+    <MapContainer/>
     </>
   )
 }
