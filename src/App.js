@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import Navbar from "./components/layout/Navbar";
 import "./index.css";
 import Home from "./pages/Home";
 // === Layout components
@@ -19,6 +20,7 @@ function App() {
             <Route path="/" element={<Home />} />
           </Routes>
         </main>
+        <Navbar/>
       </Router>
       <ToastContainer />
     </>
