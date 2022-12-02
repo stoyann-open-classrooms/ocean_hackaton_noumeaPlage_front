@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+main {
+  color: black;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+p {
+  line-height: 1.7;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  line-height: 1.7;
+  list-style: none;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+
+
+// =================== formulaires =================
+.form {
+    width: 60%;
+    margin: 0 auto;
+  }
+  
+  .form-group {
+    margin-bottom: 10px;
+  }
+  
+  .form-group input,
+  .form-group textarea,
+  .form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #9097e1;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-family: inherit;
+  }
+  
+  .form-group textarea {
+    height: 30rem;
+  }
+  
+  .form-group label {
+    text-align: left;
+    display: block;
+    margin: 0 0 5px 3px;
+    font-size: 1.6rem;
+  }
